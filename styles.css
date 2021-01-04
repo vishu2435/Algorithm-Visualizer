@@ -1,0 +1,59 @@
+body {
+  font-family: mono;
+	font-size: 2em;
+  margin: 0;
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+.graph-container{
+  margin: auto;
+  width: fit-content;
+}
+.highlighted {
+  color: red;
+}
+
+.lines {
+  stroke: black;
+  stroke-width: 7;
+}
+
+.lines path {
+  stroke: #4de2a9;
+  stroke-linejoin: round;
+  
+}
+.play-button{
+  margin: auto;
+  width: fit-content;
+}
+g{
+  fill: steelblue;
+
+}
+g[type="rectangle"]{
+  transition: 0.8s;
+}
+text{
+  fill: black;
+  font-size: 20px ;
+}
+rect{
+  transition: all 0.3s;
+}
+.testing{
+  fill: green;
+}
+.bottom-bar{
+  display: flex;
+  justify-content: center;
+}
+.slidecontainer{
+  display: flex;
+  align-items: center;
+  /* width: 30%; */
+  /* justify-content: space-between; */
+}
+.slidecontainer h3{
+  margin: 0 30px;
+}
